@@ -1,0 +1,30 @@
+---
+title: "Welcome to My Portfolio"
+subtitle: "Digital Marketing · Analytics · User Experience"
+---
+
+::: {.hero}
+## Hello, I'm Pei-Yun Chuang
+
+I am a digital marketing graduate student interested in connecting customer insights, data analytics, and user-centered website design. My goal is to help organizations turn digital experiences into meaningful customer relationships.
+:::
+
+## About Me
+
+![Pei-Yun Chuang](images/profile-fixed.jpg){width="220px"}
+
+I earned a **BBA in Marketing from the University of the West** and am pursuing an **MS in Digital Marketing at California State Polytechnic University, Pomona**.
+
+## Skills
+
+- **Analytics:** Google Analytics 4, SQL, R, data visualization
+- **Digital marketing:** SEO, website optimization, campaign measurement
+- **Communication:** Research presentations, marketing reports, bilingual communication
+
+## Career Aspirations
+
+I hope to build a career in digital marketing analytics and strategy, helping businesses make evidence-based decisions and create better online customer experiences.
+
+## Explore
+
+Visit my [project dashboard](dashboard.qmd), [CSS/SCSS guide](styling.qmd), and [project listings](listings.qmd).

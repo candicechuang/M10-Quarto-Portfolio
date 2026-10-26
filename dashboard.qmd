@@ -1,0 +1,52 @@
+---
+title: "MSDM Culminating Experience Dashboard"
+subtitle: "PhD Orthodontics — Website Redesign & User Behavior"
+format:
+  dashboard:
+    theme: cosmo
+    orientation: rows
+---
+
+```{r}
+#| include: false
+library(ggplot2)
+# Illustrative figures only; replace with approved client data when available.
+metrics <- data.frame(metric=c("Mobile UX", "CTA Clarity", "Navigation", "Trust Content"),score=c(65,72,68,75))
+```
+
+## Project Overview
+
+::: {.valuebox}
+### Primary objective
+Improve website usability and consultation inquiry pathways
+:::
+
+::: {.valuebox}
+### Target locations
+San Gabriel and Chino Hills
+:::
+
+::: {.valuebox}
+### Focus
+AO1 — Website Redesign & User Behavior
+:::
+
+## Illustrative UX Assessment
+
+::: {.card}
+### Example usability scores (not actual client results)
+
+```{r}
+#| echo: false
+ggplot(metrics, aes(x=reorder(metric,score),y=score)) + geom_col(fill="#567c82") + coord_flip() + ylim(0,100) + labs(x=NULL,y="Illustrative score / 100") + theme_minimal(base_size=13)
+```
+:::
+
+## Recommendations
+
+- Make consultation calls to action easy to find on desktop and mobile.
+- Clarify navigation between location-specific information.
+- Highlight doctor profiles, patient testimonials, and insurance information.
+- Use GA4 events to evaluate inquiry button clicks and form starts when access is granted.
+
+**Data note:** This dashboard uses explicitly illustrative scores for demonstration. No actual patient, GA4, or client performance data is represented.

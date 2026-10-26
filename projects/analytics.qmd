@@ -1,0 +1,11 @@
+---
+title: "Marketing Analytics with R and SQL"
+date: 2026-09-20
+description: "Using data wrangling and visualizations to communicate marketing insights."
+categories: [R, SQL, Analytics]
+image: ../images/project.svg
+---
+
+## Project focus
+
+My coursework includes cleaning data, creating visualizations, and communicating insights using R, SQL, and Quarto. The goal is to translate technical findings into accessible business recommendations.

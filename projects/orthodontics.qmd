@@ -1,0 +1,13 @@
+---
+title: "PhD Orthodontics Website UX"
+date: 2026-10-01
+description: "Evaluating website navigation, trust signals, and consultation inquiry paths."
+categories: [UX, Digital Marketing, Analytics]
+image: ../images/project.svg
+---
+
+## Project focus
+
+This culminating experience project examines how a local orthodontic practice can improve online visibility and website usability for San Gabriel and Chino Hills audiences.
+
+My AO1 work focuses on navigation, calls to action, mobile experience, and trust-building information. See the [dashboard](../dashboard.qmd) for an illustrative summary.

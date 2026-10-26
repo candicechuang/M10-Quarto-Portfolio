@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "listings.html",
+    "href": "listings.html",
+    "title": "Project Listings",
+    "section": "",
+    "text": "This page uses Quarto Listings to automatically collect and organize project pages stored in the projects/ directory. Use the category filters to explore work by topic.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPhD Orthodontics Website UX\n\n\n\nUX\n\nDigital Marketing\n\nAnalytics\n\n\n\nEvaluating website navigation, trust signals, and consultation inquiry paths.\n\n\n\nOct 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarketing Analytics with R and SQL\n\n\n\nR\n\nSQL\n\nAnalytics\n\n\n\nUsing data wrangling and visualizations to communicate marketing insights.\n\n\n\nSep 20, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "styling.html",
+    "href": "styling.html",
+    "title": "Styling a Quarto Website with CSS and SCSS",
+    "section": "",
+    "text": "A consistent visual system improves readability, navigation, and credibility. This portfolio uses a custom CSS file in addition to Quarto’s built-in Cosmo theme."
+  },
+  {
+    "objectID": "styling.html#why-styling-matters",
+    "href": "styling.html#why-styling-matters",
+    "title": "Styling a Quarto Website with CSS and SCSS",
+    "section": "",
+    "text": "A consistent visual system improves readability, navigation, and credibility. This portfolio uses a custom CSS file in addition to Quarto’s built-in Cosmo theme."
+  },
+  {
+    "objectID": "styling.html#css-in-this-website",
+    "href": "styling.html#css-in-this-website",
+    "title": "Styling a Quarto Website with CSS and SCSS",
+    "section": "CSS in this website",
+    "text": "CSS in this website\nCSS controls the appearance of HTML elements. The site’s _quarto.yml contains css: styles.css, which loads our custom stylesheet across pages.\n.hero {\n  padding: 2rem;\n  background: #f4f0e9;\n  border-radius: 16px;\n}\nThe .hero class is used on the home page to create a distinct introductory section."
+  },
+  {
+    "objectID": "styling.html#how-scss-extends-css",
+    "href": "styling.html#how-scss-extends-css",
+    "title": "Styling a Quarto Website with CSS and SCSS",
+    "section": "How SCSS extends CSS",
+    "text": "How SCSS extends CSS\nSCSS supports reusable variables, nesting, and mixins. For example, a shared color variable helps maintain consistent styling:\n$accent: #567c82;\n\n.hero {\n  border-left: 5px solid $accent;\n  h2 { color: $accent; }\n}\nThe sample is provided in examples.scss to demonstrate SCSS syntax. The live site currently uses compiled-style plain CSS from styles.css."
+  },
+  {
+    "objectID": "styling.html#design-decisions",
+    "href": "styling.html#design-decisions",
+    "title": "Styling a Quarto Website with CSS and SCSS",
+    "section": "Design decisions",
+    "text": "Design decisions\n\nA neutral background supports readability.\nTeal accents create a consistent visual hierarchy.\nResponsive spacing makes the site easier to use on smaller screens.\nClear navigation labels help visitors find portfolio work quickly."
+  },
+  {
+    "objectID": "projects/analytics.html",
+    "href": "projects/analytics.html",
+    "title": "Marketing Analytics with R and SQL",
+    "section": "",
+    "text": "My coursework includes cleaning data, creating visualizations, and communicating insights using R, SQL, and Quarto. The goal is to translate technical findings into accessible business recommendations."
+  },
+  {
+    "objectID": "projects/analytics.html#project-focus",
+    "href": "projects/analytics.html#project-focus",
+    "title": "Marketing Analytics with R and SQL",
+    "section": "",
+    "text": "My coursework includes cleaning data, creating visualizations, and communicating insights using R, SQL, and Quarto. The goal is to translate technical findings into accessible business recommendations."
+  },
+  {
+    "objectID": "projects/orthodontics.html",
+    "href": "projects/orthodontics.html",
+    "title": "PhD Orthodontics Website UX",
+    "section": "",
+    "text": "This culminating experience project examines how a local orthodontic practice can improve online visibility and website usability for San Gabriel and Chino Hills audiences.\nMy AO1 work focuses on navigation, calls to action, mobile experience, and trust-building information. See the dashboard for an illustrative summary."
+  },
+  {
+    "objectID": "projects/orthodontics.html#project-focus",
+    "href": "projects/orthodontics.html#project-focus",
+    "title": "PhD Orthodontics Website UX",
+    "section": "",
+    "text": "This culminating experience project examines how a local orthodontic practice can improve online visibility and website usability for San Gabriel and Chino Hills audiences.\nMy AO1 work focuses on navigation, calls to action, mobile experience, and trust-building information. See the dashboard for an illustrative summary."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Portfolio",
+    "section": "",
+    "text": "I am a digital marketing graduate student interested in connecting customer insights, data analytics, and user-centered website design. My goal is to help organizations turn digital experiences into meaningful customer relationships."
+  },
+  {
+    "objectID": "index.html#hello-im-pei-yun-chuang",
+    "href": "index.html#hello-im-pei-yun-chuang",
+    "title": "Welcome to My Portfolio",
+    "section": "",
+    "text": "I am a digital marketing graduate student interested in connecting customer insights, data analytics, and user-centered website design. My goal is to help organizations turn digital experiences into meaningful customer relationships."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Welcome to My Portfolio",
+    "section": "About Me",
+    "text": "About Me\n\n\n\nPei-Yun Chuang\n\n\nI earned a BBA in Marketing from the University of the West and am pursuing an MS in Digital Marketing at California State Polytechnic University, Pomona."
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Welcome to My Portfolio",
+    "section": "Skills",
+    "text": "Skills\n\nAnalytics: Google Analytics 4, SQL, R, data visualization\nDigital marketing: SEO, website optimization, campaign measurement\nCommunication: Research presentations, marketing reports, bilingual communication"
+  },
+  {
+    "objectID": "index.html#career-aspirations",
+    "href": "index.html#career-aspirations",
+    "title": "Welcome to My Portfolio",
+    "section": "Career Aspirations",
+    "text": "Career Aspirations\nI hope to build a career in digital marketing analytics and strategy, helping businesses make evidence-based decisions and create better online customer experiences."
+  },
+  {
+    "objectID": "index.html#explore",
+    "href": "index.html#explore",
+    "title": "Welcome to My Portfolio",
+    "section": "Explore",
+    "text": "Explore\nVisit my project dashboard, CSS/SCSS guide, and project listings."
+  },
+  {
+    "objectID": "submission.html",
+    "href": "submission.html",
+    "title": "M10 Hands-on Practice — Submission",
+    "section": "",
+    "text": "Open my portfolio website"
+  },
+  {
+    "objectID": "submission.html#published-portfolio-website",
+    "href": "submission.html#published-portfolio-website",
+    "title": "M10 Hands-on Practice — Submission",
+    "section": "",
+    "text": "Open my portfolio website"
+  },
+  {
+    "objectID": "submission.html#github-repository",
+    "href": "submission.html#github-repository",
+    "title": "M10 Hands-on Practice — Submission",
+    "section": "GitHub repository",
+    "text": "GitHub repository\nView all project source files\nBefore submitting: Replace both placeholder links with your real published URLs. Render this QMD file to HTML and verify both links work."
+  }
+]

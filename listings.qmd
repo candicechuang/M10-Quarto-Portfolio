@@ -1,0 +1,14 @@
+---
+title: "Project Listings"
+subtitle: "Selected coursework and digital marketing projects"
+listing:
+  contents: projects
+  type: grid
+  sort: "date desc"
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [image, title, date, description, categories]
+---
+
+This page uses **Quarto Listings** to automatically collect and organize project pages stored in the `projects/` directory. Use the category filters to explore work by topic.

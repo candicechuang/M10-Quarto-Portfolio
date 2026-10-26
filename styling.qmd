@@ -1,0 +1,43 @@
+---
+title: "Styling a Quarto Website with CSS and SCSS"
+---
+
+## Why styling matters
+
+A consistent visual system improves readability, navigation, and credibility. This portfolio uses a custom CSS file in addition to Quarto's built-in Cosmo theme.
+
+## CSS in this website
+
+CSS controls the appearance of HTML elements. The site's `_quarto.yml` contains `css: styles.css`, which loads our custom stylesheet across pages.
+
+```css
+.hero {
+  padding: 2rem;
+  background: #f4f0e9;
+  border-radius: 16px;
+}
+```
+
+The `.hero` class is used on the home page to create a distinct introductory section.
+
+## How SCSS extends CSS
+
+SCSS supports reusable variables, nesting, and mixins. For example, a shared color variable helps maintain consistent styling:
+
+```scss
+$accent: #567c82;
+
+.hero {
+  border-left: 5px solid $accent;
+  h2 { color: $accent; }
+}
+```
+
+The sample is provided in `examples.scss` to demonstrate SCSS syntax. The live site currently uses compiled-style plain CSS from `styles.css`.
+
+## Design decisions
+
+- A neutral background supports readability.
+- Teal accents create a consistent visual hierarchy.
+- Responsive spacing makes the site easier to use on smaller screens.
+- Clear navigation labels help visitors find portfolio work quickly.

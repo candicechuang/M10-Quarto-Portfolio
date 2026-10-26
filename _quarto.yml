@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Pei-Yun Chuang | Digital Marketing Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: dashboard.qmd
+        text: Project Dashboard
+      - href: styling.qmd
+        text: CSS & SCSS
+      - href: listings.qmd
+        text: Project Listings
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    page-layout: full
