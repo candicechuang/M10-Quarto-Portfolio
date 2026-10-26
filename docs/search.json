@@ -114,22 +114,36 @@
   {
     "objectID": "submission.html",
     "href": "submission.html",
-    "title": "M10 Hands-on Practice — Submission",
+    "title": "M10 Hands-on Practice Submission",
     "section": "",
-    "text": "Open my portfolio website"
+    "text": "This project demonstrates my ability to create and publish a personal portfolio website using Quarto, R, CSS/SCSS, and GitHub Pages.\nThe website includes four main sections: a personal homepage, an MSDM Culminating Experience Project dashboard, a CSS/SCSS styling guide, and a Quarto project listings page."
+  },
+  {
+    "objectID": "submission.html#project-overview",
+    "href": "submission.html#project-overview",
+    "title": "M10 Hands-on Practice Submission",
+    "section": "",
+    "text": "This project demonstrates my ability to create and publish a personal portfolio website using Quarto, R, CSS/SCSS, and GitHub Pages.\nThe website includes four main sections: a personal homepage, an MSDM Culminating Experience Project dashboard, a CSS/SCSS styling guide, and a Quarto project listings page."
   },
   {
     "objectID": "submission.html#published-portfolio-website",
     "href": "submission.html#published-portfolio-website",
-    "title": "M10 Hands-on Practice — Submission",
-    "section": "",
-    "text": "Open my portfolio website"
+    "title": "M10 Hands-on Practice Submission",
+    "section": "Published Portfolio Website",
+    "text": "Published Portfolio Website\nView My Digital Marketing Portfolio"
   },
   {
     "objectID": "submission.html#github-repository",
     "href": "submission.html#github-repository",
-    "title": "M10 Hands-on Practice — Submission",
-    "section": "GitHub repository",
-    "text": "GitHub repository\nView all project source files\nBefore submitting: Replace both placeholder links with your real published URLs. Render this QMD file to HTML and verify both links work."
+    "title": "M10 Hands-on Practice Submission",
+    "section": "GitHub Repository",
+    "text": "GitHub Repository\nView My GitHub Repository"
+  },
+  {
+    "objectID": "submission.html#reflection",
+    "href": "submission.html#reflection",
+    "title": "M10 Hands-on Practice Submission",
+    "section": "Reflection",
+    "text": "Reflection\nThrough this assignment, I learned how to organize a multi-page Quarto website, customize its appearance with CSS, create data visualizations, and use Quarto Listings to showcase projects.\nI also gained hands-on experience publishing a website through GitHub Pages and sharing my work with a broader audience."
   }
 ]
