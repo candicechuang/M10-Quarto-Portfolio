@@ -1,149 +1,261 @@
 [
   {
-    "objectID": "listings.html",
-    "href": "listings.html",
-    "title": "Project Listings",
+    "objectID": "proposal.html",
+    "href": "proposal.html",
+    "title": "Portfolio Website Project Proposal",
     "section": "",
-    "text": "This page uses Quarto Listings to automatically collect and organize project pages stored in the projects/ directory. Use the category filters to explore work by topic.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPhD Orthodontics Website UX\n\n\n\nUX\n\nDigital Marketing\n\nAnalytics\n\n\n\nEvaluating website navigation, trust signals, and consultation inquiry paths.\n\n\n\nOct 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarketing Analytics with R and SQL\n\n\n\nR\n\nSQL\n\nAnalytics\n\n\n\nUsing data wrangling and visualizations to communicate marketing insights.\n\n\n\nSep 20, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Home: Professional introduction, skills, and project links.\nDigital Marketing Projects: Multiple projects in website UX, SEO, and campaign planning.\nMarketing Analytics Projects: Multiple projects in GA4 traffic, R visualization, UX dashboard, and Revealjs.\nResume: Education, experience, and downloadable PDF.\n\nNote: GA4 traffic analysis and the Revealjs presentation are project entries under Marketing Analytics, not independent navigation tabs."
   },
   {
-    "objectID": "styling.html",
-    "href": "styling.html",
-    "title": "Styling a Quarto Website with CSS and SCSS",
+    "objectID": "proposal.html#website-structure",
+    "href": "proposal.html#website-structure",
+    "title": "Portfolio Website Project Proposal",
     "section": "",
-    "text": "A consistent visual system improves readability, navigation, and credibility. This portfolio uses a custom CSS file in addition to Quarto’s built-in Cosmo theme."
+    "text": "Home: Professional introduction, skills, and project links.\nDigital Marketing Projects: Multiple projects in website UX, SEO, and campaign planning.\nMarketing Analytics Projects: Multiple projects in GA4 traffic, R visualization, UX dashboard, and Revealjs.\nResume: Education, experience, and downloadable PDF.\n\nNote: GA4 traffic analysis and the Revealjs presentation are project entries under Marketing Analytics, not independent navigation tabs."
   },
   {
-    "objectID": "styling.html#why-styling-matters",
-    "href": "styling.html#why-styling-matters",
-    "title": "Styling a Quarto Website with CSS and SCSS",
+    "objectID": "proposal.html#proposed-projects",
+    "href": "proposal.html#proposed-projects",
+    "title": "Portfolio Website Project Proposal",
+    "section": "Proposed Projects",
+    "text": "Proposed Projects\n\n\n\n\n\n\n\n\n\n\n\n\nProject\nData and source\nManagerial problem\nAudience\nResearch questions/objectives\nExpected impact\nQuantitative methods\n\n\n\n\nOrthodontics website UX\nPublic website; approved analytics if granted\nConsultation friction\nPractice owner\nEvaluate CTA, mobile navigation, trust signals\nPrioritize UX improvements\nStructured audit, issue counts, event metrics if available\n\n\nLocal SEO\nPublic competitor sites and keyword observations\nLocal discoverability\nMarketing manager\nIdentify relevant search themes\nBetter content prioritization\nKeyword categorization, descriptive counts\n\n\nCampaign planning\nApproved or public campaign dataset\nMessage/channel alignment\nMarketing team\nDefine segments and KPIs\nClearer measurement\nSegmentation, descriptive analysis\n\n\nPortfolio GA4 traffic\nOwn GA4 export, when available\nLimited visibility into visitor behavior\nWebsite owner\nCompare pages, channels, engagement\nImprove content and navigation\nRates, rankings, trend summaries\n\n\nR marketing visualization\nDocumented marketing dataset\nHard-to-read performance tables\nMarketing analyst\nCompare channel metrics\nClearer decisions\nAggregation, charts\n\n\nUX dashboard\nIllustrative data, pending client access\nNeed for visual reporting\nPractice manager\nCommunicate UX priorities\nBetter reporting structure\nDescriptive dashboard\n\n\nRevealjs analytics presentation\nGA4 plan and approved data when available\nNeed to communicate findings\nStakeholders\nExplain measurement approach\nShared understanding\nVisual summaries and KPI interpretation"
+  },
+  {
+    "objectID": "proposal.html#status-and-data-integrity",
+    "href": "proposal.html#status-and-data-integrity",
+    "title": "Portfolio Website Project Proposal",
+    "section": "Status and Data Integrity",
+    "text": "Status and Data Integrity\nThe current website includes a working proposal structure and R demonstrations. Synthetic data are used for example visualizations; no client analytics or real portfolio GA4 traffic has been supplied. Actual results and business recommendations require verified data."
+  },
+  {
+    "objectID": "proposal.html#short-presentation-script",
+    "href": "proposal.html#short-presentation-script",
+    "title": "Portfolio Website Project Proposal",
+    "section": "Short Presentation Script",
+    "text": "Short Presentation Script\nHello everyone. My portfolio focuses on digital marketing and marketing analytics. My home page introduces my background and skills. The Digital Marketing Projects page includes website user experience, local SEO, and campaign planning. The Marketing Analytics Projects page includes GA4 website traffic analysis, R visualizations, a dashboard, and a Revealjs presentation. My main analytics goal is to understand which pages and traffic sources perform best and how to improve engagement. I plan to use GA4 data, descriptive statistics, and R charts. Right now, the sample charts are demonstrations, and I will replace them with actual data after tracking is verified. My resume is also available on the website. Thank you."
+  },
+  {
+    "objectID": "revealjs-presentation.html#why-this-project-matters",
+    "href": "revealjs-presentation.html#why-this-project-matters",
+    "title": "Using GA4 to Improve a Portfolio Website",
+    "section": "Why This Project Matters",
+    "text": "Why This Project Matters\n\nA portfolio is a digital marketing touchpoint.\nWebsite owners need evidence about visits and engagement.\nGA4 can support better content and navigation decisions."
+  },
+  {
+    "objectID": "revealjs-presentation.html#data-and-source",
+    "href": "revealjs-presentation.html#data-and-source",
+    "title": "Using GA4 to Improve a Portfolio Website",
+    "section": "Data and Source",
+    "text": "Data and Source\n\nIntended source: GA4 events and website traffic reports from my published portfolio.\nDimensions: page, channel, and date.\nMetrics: views, sessions, engaged sessions.\nCurrent status: actual GA4 data not yet provided."
+  },
+  {
+    "objectID": "revealjs-presentation.html#managerial-problem-and-audience",
+    "href": "revealjs-presentation.html#managerial-problem-and-audience",
+    "title": "Using GA4 to Improve a Portfolio Website",
+    "section": "Managerial Problem and Audience",
+    "text": "Managerial Problem and Audience\n\nProblem: Which content should the website owner improve first?\nAudience: Portfolio owner and digital marketing stakeholders."
+  },
+  {
+    "objectID": "revealjs-presentation.html#research-questions",
+    "href": "revealjs-presentation.html#research-questions",
+    "title": "Using GA4 to Improve a Portfolio Website",
+    "section": "Research Questions",
+    "text": "Research Questions\n\nWhich pages receive the most traffic?\nWhich channels bring visitors?\nWhich channels have higher engagement rates?"
+  },
+  {
+    "objectID": "revealjs-presentation.html#methods",
+    "href": "revealjs-presentation.html#methods",
+    "title": "Using GA4 to Improve a Portfolio Website",
+    "section": "Methods",
+    "text": "Methods\n\nDescriptive statistics and aggregation in R\nEngagement rate = engaged sessions / sessions\nBar charts and comparison tables"
+  },
+  {
+    "objectID": "revealjs-presentation.html#example-analysis-synthetic-data",
+    "href": "revealjs-presentation.html#example-analysis-synthetic-data",
+    "title": "Using GA4 to Improve a Portfolio Website",
+    "section": "Example Analysis (Synthetic Data)",
+    "text": "Example Analysis (Synthetic Data)"
+  },
+  {
+    "objectID": "revealjs-presentation.html#expected-business-impact",
+    "href": "revealjs-presentation.html#expected-business-impact",
+    "title": "Using GA4 to Improve a Portfolio Website",
+    "section": "Expected Business Impact",
+    "text": "Expected Business Impact\n\nIdentify popular and under-visited pages.\nImprove navigation and page messaging.\nEstablish a repeatable analytics reporting workflow."
+  },
+  {
+    "objectID": "revealjs-presentation.html#next-steps",
+    "href": "revealjs-presentation.html#next-steps",
+    "title": "Using GA4 to Improve a Portfolio Website",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nVerify GA4 implementation.\nCollect and export actual traffic data.\nRe-run the analysis with real observations.\nReport limitations and actionable recommendations."
+  },
+  {
+    "objectID": "revealjs-presentation.html#thank-you",
+    "href": "revealjs-presentation.html#thank-you",
+    "title": "Using GA4 to Improve a Portfolio Website",
+    "section": "Thank You",
+    "text": "Thank You\nQuestions?"
+  },
+  {
+    "objectID": "data-visualization.html",
+    "href": "data-visualization.html",
+    "title": "Marketing Data Visualization with R",
     "section": "",
-    "text": "A consistent visual system improves readability, navigation, and credibility. This portfolio uses a custom CSS file in addition to Quarto’s built-in Cosmo theme."
+    "text": "Project title: Exploring Marketing Performance Through R Visualization\nData and source: A documented course or approved marketing dataset; the chart below uses the explicitly synthetic CSV bundled with this portfolio.\nManagerial problem: Raw performance tables are difficult for decision-makers to interpret quickly.\nTarget audience: Marketing analysts and marketing managers.\nResearch questions: How do metrics vary across acquisition channels? Which patterns deserve further investigation?\nExpected business impact: Make performance differences easier to communicate and help prioritize follow-up analysis.\nQuantitative methods: Grouped descriptive statistics, proportions, comparisons, and bar charts using R and ggplot2."
   },
   {
-    "objectID": "styling.html#css-in-this-website",
-    "href": "styling.html#css-in-this-website",
-    "title": "Styling a Quarto Website with CSS and SCSS",
-    "section": "CSS in this website",
-    "text": "CSS in this website\nCSS controls the appearance of HTML elements. The site’s _quarto.yml contains css: styles.css, which loads our custom stylesheet across pages.\n.hero {\n  padding: 2rem;\n  background: #f4f0e9;\n  border-radius: 16px;\n}\nThe .hero class is used on the home page to create a distinct introductory section."
-  },
-  {
-    "objectID": "styling.html#how-scss-extends-css",
-    "href": "styling.html#how-scss-extends-css",
-    "title": "Styling a Quarto Website with CSS and SCSS",
-    "section": "How SCSS extends CSS",
-    "text": "How SCSS extends CSS\nSCSS supports reusable variables, nesting, and mixins. For example, a shared color variable helps maintain consistent styling:\n$accent: #567c82;\n\n.hero {\n  border-left: 5px solid $accent;\n  h2 { color: $accent; }\n}\nThe sample is provided in examples.scss to demonstrate SCSS syntax. The live site currently uses compiled-style plain CSS from styles.css."
-  },
-  {
-    "objectID": "styling.html#design-decisions",
-    "href": "styling.html#design-decisions",
-    "title": "Styling a Quarto Website with CSS and SCSS",
-    "section": "Design decisions",
-    "text": "Design decisions\n\nA neutral background supports readability.\nTeal accents create a consistent visual hierarchy.\nResponsive spacing makes the site easier to use on smaller screens.\nClear navigation labels help visitors find portfolio work quickly."
-  },
-  {
-    "objectID": "projects/analytics.html",
-    "href": "projects/analytics.html",
-    "title": "Marketing Analytics with R and SQL",
+    "objectID": "data-visualization.html#project-proposal",
+    "href": "data-visualization.html#project-proposal",
+    "title": "Marketing Data Visualization with R",
     "section": "",
-    "text": "My coursework includes cleaning data, creating visualizations, and communicating insights using R, SQL, and Quarto. The goal is to translate technical findings into accessible business recommendations."
+    "text": "Project title: Exploring Marketing Performance Through R Visualization\nData and source: A documented course or approved marketing dataset; the chart below uses the explicitly synthetic CSV bundled with this portfolio.\nManagerial problem: Raw performance tables are difficult for decision-makers to interpret quickly.\nTarget audience: Marketing analysts and marketing managers.\nResearch questions: How do metrics vary across acquisition channels? Which patterns deserve further investigation?\nExpected business impact: Make performance differences easier to communicate and help prioritize follow-up analysis.\nQuantitative methods: Grouped descriptive statistics, proportions, comparisons, and bar charts using R and ggplot2."
   },
   {
-    "objectID": "projects/analytics.html#project-focus",
-    "href": "projects/analytics.html#project-focus",
-    "title": "Marketing Analytics with R and SQL",
-    "section": "",
-    "text": "My coursework includes cleaning data, creating visualizations, and communicating insights using R, SQL, and Quarto. The goal is to translate technical findings into accessible business recommendations."
+    "objectID": "data-visualization.html#r-example",
+    "href": "data-visualization.html#r-example",
+    "title": "Marketing Data Visualization with R",
+    "section": "R Example",
+    "text": "R Example\n\nlibrary(ggplot2)\nd &lt;- read.csv(\"data/ga4_sample.csv\")\ns &lt;- aggregate(sessions ~ channel, data=d, FUN=sum)\nggplot(s, aes(x=channel, y=sessions)) + geom_col(fill=\"#806a83\") +\n  labs(title=\"Example sessions by channel (synthetic data)\", x=\"Channel\", y=\"Sessions\") +\n  theme_minimal(base_size=12)\n\n\n\n\n\n\n\n\nStatus: Demonstration of analytical methods; real data and results will be added when available."
   },
   {
-    "objectID": "projects/orthodontics.html",
-    "href": "projects/orthodontics.html",
-    "title": "PhD Orthodontics Website UX",
+    "objectID": "marketing-analytics.html",
+    "href": "marketing-analytics.html",
+    "title": "Marketing Analytics Projects",
     "section": "",
-    "text": "This culminating experience project examines how a local orthodontic practice can improve online visibility and website usability for San Gabriel and Chino Hills audiences.\nMy AO1 work focuses on navigation, calls to action, mobile experience, and trust-building information. See the dashboard for an illustrative summary."
-  },
-  {
-    "objectID": "projects/orthodontics.html#project-focus",
-    "href": "projects/orthodontics.html#project-focus",
-    "title": "PhD Orthodontics Website UX",
-    "section": "",
-    "text": "This culminating experience project examines how a local orthodontic practice can improve online visibility and website usability for San Gabriel and Chino Hills audiences.\nMy AO1 work focuses on navigation, calls to action, mobile experience, and trust-building information. See the dashboard for an illustrative summary."
+    "text": "1. GA4 Portfolio Website Traffic Analysis\nAnalyze traffic sources, page views, engagement, and website improvement opportunities. Includes an R workflow and a clearly labeled sample dataset until actual GA4 data are available.\n\n\n2. Marketing Data Visualization with R\nUse R and ggplot2 to summarize and visualize marketing performance data.\n\n\n3. PhD Orthodontics UX Dashboard\nA demonstration dashboard showing how website usability metrics could be communicated. Illustrative data only.\n\n\n4. Interactive Revealjs Analytics Presentation\nA Quarto slide presentation summarizing the proposed GA4 measurement and analysis plan.\n\nRead the full project proposal"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to My Portfolio",
     "section": "",
-    "text": "I am a digital marketing graduate student interested in connecting customer insights, data analytics, and user-centered website design. My goal is to help organizations turn digital experiences into meaningful customer relationships."
+    "text": "I’m pursuing an MS in Digital Marketing at Cal Poly Pomona. I enjoy using customer insights, marketing strategy, and analytics to improve online experiences and support business decisions."
   },
   {
-    "objectID": "index.html#hello-im-pei-yun-chuang",
-    "href": "index.html#hello-im-pei-yun-chuang",
+    "objectID": "index.html#hello-im-candice-chuang",
+    "href": "index.html#hello-im-candice-chuang",
     "title": "Welcome to My Portfolio",
     "section": "",
-    "text": "I am a digital marketing graduate student interested in connecting customer insights, data analytics, and user-centered website design. My goal is to help organizations turn digital experiences into meaningful customer relationships."
+    "text": "I’m pursuing an MS in Digital Marketing at Cal Poly Pomona. I enjoy using customer insights, marketing strategy, and analytics to improve online experiences and support business decisions."
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Welcome to My Portfolio",
     "section": "About Me",
-    "text": "About Me\n\n\n\nPei-Yun Chuang\n\n\nI earned a BBA in Marketing from the University of the West and am pursuing an MS in Digital Marketing at California State Polytechnic University, Pomona."
+    "text": "About Me\nI earned a BA in Business Administration (Marketing) from the University of the West. My interests include website optimization, consumer behavior, SEO, and marketing analytics."
   },
   {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
+    "objectID": "index.html#my-skills",
+    "href": "index.html#my-skills",
     "title": "Welcome to My Portfolio",
+    "section": "My Skills",
+    "text": "My Skills\n\nDigital marketing: SEO, website content, customer engagement, campaign planning\nAnalytics: GA4, R, Quarto, SQL, dashboards and data visualization\nProfessional: Client communication, market research, bilingual English/Mandarin communication"
+  },
+  {
+    "objectID": "index.html#explore-my-work",
+    "href": "index.html#explore-my-work",
+    "title": "Welcome to My Portfolio",
+    "section": "Explore My Work",
+    "text": "Explore My Work\n\nDigital Marketing Projects\nWebsite experience, search strategy, and marketing initiatives.\n\n\nMarketing Analytics Projects\nGA4 website measurement, R-based analytics, and an interactive presentation.\n\n\nResume\nEducation, professional experience, and selected achievements."
+  },
+  {
+    "objectID": "digital-marketing.html",
+    "href": "digital-marketing.html",
+    "title": "Digital Marketing Projects",
+    "section": "",
+    "text": "Data and source: Publicly accessible practice website, proposed user journey observations, and published website usability research. Client analytics require permission.\nManagerial problem: A practice expanding from San Gabriel toward Chino Hills needs clear navigation, trust signals, and consultation pathways for prospective patients.\nTarget audience: Practice owner, office manager, and digital marketing team.\nResearch questions: How easy is it to find a consultation CTA? Are location details and doctor information clear on mobile and desktop?\nExpected business impact: Identify improvements that could reduce navigation friction and support consultation inquiries.\nMethods: Structured website audit, task-based usability assessment, descriptive counts of issues by severity, and later GA4 event analysis if access is approved.\nProject status: Research and recommendations; do not interpret example dashboard scores as actual client outcomes.\nView illustrative project dashboard"
+  },
+  {
+    "objectID": "digital-marketing.html#project-1-phd-orthodontics-website-redesign-user-behavior",
+    "href": "digital-marketing.html#project-1-phd-orthodontics-website-redesign-user-behavior",
+    "title": "Digital Marketing Projects",
+    "section": "",
+    "text": "Data and source: Publicly accessible practice website, proposed user journey observations, and published website usability research. Client analytics require permission.\nManagerial problem: A practice expanding from San Gabriel toward Chino Hills needs clear navigation, trust signals, and consultation pathways for prospective patients.\nTarget audience: Practice owner, office manager, and digital marketing team.\nResearch questions: How easy is it to find a consultation CTA? Are location details and doctor information clear on mobile and desktop?\nExpected business impact: Identify improvements that could reduce navigation friction and support consultation inquiries.\nMethods: Structured website audit, task-based usability assessment, descriptive counts of issues by severity, and later GA4 event analysis if access is approved.\nProject status: Research and recommendations; do not interpret example dashboard scores as actual client outcomes.\nView illustrative project dashboard"
+  },
+  {
+    "objectID": "digital-marketing.html#project-2-local-seo-and-content-strategy-proposed",
+    "href": "digital-marketing.html#project-2-local-seo-and-content-strategy-proposed",
+    "title": "Digital Marketing Projects",
+    "section": "Project 2 — Local SEO and Content Strategy (Proposed)",
+    "text": "Project 2 — Local SEO and Content Strategy (Proposed)\nData and source: Public search results, competitor websites, Google Trends where applicable, and manually collected keyword observations.\nManagerial problem: A local service business needs to reach potential customers searching for nearby services.\nTarget audience: Marketing manager and small-business owner.\nResearch questions: What local search topics match customer needs? Which website pages could better address search intent?\nExpected business impact: Prioritize useful content and local search improvements.\nMethods: Keyword categorization, competitor content comparison, frequency tables, and prioritization matrices.\nProject status: Planned portfolio case study; no measured ranking improvements claimed."
+  },
+  {
+    "objectID": "digital-marketing.html#project-3-customer-engagement-and-campaign-planning-proposed",
+    "href": "digital-marketing.html#project-3-customer-engagement-and-campaign-planning-proposed",
+    "title": "Digital Marketing Projects",
+    "section": "Project 3 — Customer Engagement and Campaign Planning (Proposed)",
+    "text": "Project 3 — Customer Engagement and Campaign Planning (Proposed)\nData and source: Published campaign materials or an approved sample dataset, with sources documented before analysis.\nManagerial problem: Marketing teams need to align messages and channels with audience needs.\nTarget audience: Marketing director and campaign team.\nResearch questions: Which message themes fit each audience segment? What measurable KPIs should be monitored?\nExpected business impact: Clearer campaign goals and measurement plans.\nMethods: Segmentation framework, descriptive analysis, and KPI mapping.\nProject status: Proposal; actual data and findings to be added later."
+  },
+  {
+    "objectID": "ga4-traffic.html",
+    "href": "ga4-traffic.html",
+    "title": "GA4 Portfolio Website Traffic Analysis",
+    "section": "",
+    "text": "Project title: Portfolio Website Traffic Analysis Using GA4\nData and source: Google Analytics 4 reports or exported CSV from this personal portfolio website. The chart below currently uses synthetic example data, not GA4 measurements.\nManagerial problem: Portfolio owners need to understand where visitors arrive, which pages attract interest, and where to improve content and navigation.\nTarget audience: Portfolio owner, marketing manager, and hiring/recruiting audiences interested in website performance.\nResearch questions: Which pages get the most views? Which channels bring visitors? How do engaged sessions vary by channel?\nExpected business impact: Improve content priorities, navigation, and visitor engagement based on measured behavior.\nQuantitative methods: Descriptive statistics, channel comparisons, page rankings, engagement-rate calculations, and data visualization in R."
+  },
+  {
+    "objectID": "ga4-traffic.html#project-proposal",
+    "href": "ga4-traffic.html#project-proposal",
+    "title": "GA4 Portfolio Website Traffic Analysis",
+    "section": "",
+    "text": "Project title: Portfolio Website Traffic Analysis Using GA4\nData and source: Google Analytics 4 reports or exported CSV from this personal portfolio website. The chart below currently uses synthetic example data, not GA4 measurements.\nManagerial problem: Portfolio owners need to understand where visitors arrive, which pages attract interest, and where to improve content and navigation.\nTarget audience: Portfolio owner, marketing manager, and hiring/recruiting audiences interested in website performance.\nResearch questions: Which pages get the most views? Which channels bring visitors? How do engaged sessions vary by channel?\nExpected business impact: Improve content priorities, navigation, and visitor engagement based on measured behavior.\nQuantitative methods: Descriptive statistics, channel comparisons, page rankings, engagement-rate calculations, and data visualization in R."
+  },
+  {
+    "objectID": "ga4-traffic.html#sample-analytics-workflow",
+    "href": "ga4-traffic.html#sample-analytics-workflow",
+    "title": "GA4 Portfolio Website Traffic Analysis",
+    "section": "Sample Analytics Workflow",
+    "text": "Sample Analytics Workflow\n\n\n\n\n\n\nWarning\n\n\n\nDemo data only. The included CSV was created solely to demonstrate the R workflow. Do not present its values as actual traffic, and do not claim GA4 is installed until verified.\n\n\n\nlibrary(ggplot2)\nd &lt;- read.csv(\"data/ga4_sample.csv\")\nd$engagement_rate &lt;- d$engaged_sessions / d$sessions\nby_page &lt;- aggregate(views ~ page, data=d, FUN=sum)\nprint(by_page)\n\n                 page views\n1   Digital Marketing    58\n2                Home    83\n3 Marketing Analytics    62\n4              Resume    19\n\nggplot(by_page, aes(x=reorder(page, views), y=views)) +\n  geom_col(fill=\"#806a83\") + coord_flip() +\n  labs(title=\"Example page views (synthetic data)\", x=\"Page\", y=\"Example views\") +\n  theme_minimal(base_size=12)\n\n\n\n\n\n\n\n\n\nby_channel &lt;- aggregate(cbind(sessions, engaged_sessions) ~ channel, data=d, FUN=sum)\nby_channel$engagement_rate &lt;- round(100 * by_channel$engaged_sessions / by_channel$sessions, 1)\nprint(by_channel)\n\n         channel sessions engaged_sessions engagement_rate\n1         Direct       59               43            72.9\n2 Organic Search       81               62            76.5\n3       Referral       32               23            71.9"
+  },
+  {
+    "objectID": "ga4-traffic.html#how-to-replace-sample-data-with-actual-ga4-data",
+    "href": "ga4-traffic.html#how-to-replace-sample-data-with-actual-ga4-data",
+    "title": "GA4 Portfolio Website Traffic Analysis",
+    "section": "How to Replace Sample Data with Actual GA4 Data",
+    "text": "How to Replace Sample Data with Actual GA4 Data\n\nCreate or verify a GA4 web data stream for the published portfolio website.\nAdd the measurement tag to the site, and verify collection with Realtime or DebugView.\nCollect traffic over time and export GA4 reports containing comparable dimensions and metrics.\nConvert the exported data to the columns date, channel, page, views, engaged_sessions, and sessions, or adapt the R code to match your export.\nReplace data/ga4_sample.csv and remove the sample-data warning only after checking the real source and metric definitions."
+  },
+  {
+    "objectID": "ga4-traffic.html#limitations",
+    "href": "ga4-traffic.html#limitations",
+    "title": "GA4 Portfolio Website Traffic Analysis",
+    "section": "Limitations",
+    "text": "Limitations\nThe example dataset cannot establish visitor behavior or business impact. GA4 metrics must be interpreted with the appropriate date range, consent settings, and event definitions."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Download My Resume (PDF)"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "Education",
+    "text": "Education\nCalifornia State Polytechnic University, Pomona — MS in Digital Marketing, in progress.\nUniversity of the West — BA in Business Administration, Marketing Concentration (2021–2024)."
+  },
+  {
+    "objectID": "resume.html#professional-experience",
+    "href": "resume.html#professional-experience",
+    "title": "Resume",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nD.P. Insurance Agency, Inc. — Office Assistant (2025): policy documentation and client communications.\nKapwa.Co — Retail Customer Service Representative (2025): product demonstrations and shopper engagement.\nUniversity of the West — Resident Assistant (2024): resident support and conflict mediation.\nUniversity of the West — Student Engagement Specialist (2024): event coordination and marketing outreach.\nBuder Electric Appliance Co., Ltd. — Marketing & Business Development (2019–2021): brand strategy and international collaboration."
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
     "section": "Skills",
-    "text": "Skills\n\nAnalytics: Google Analytics 4, SQL, R, data visualization\nDigital marketing: SEO, website optimization, campaign measurement\nCommunication: Research presentations, marketing reports, bilingual communication"
+    "text": "Skills\nMarketing strategy, customer engagement, GA4, R, SQL, Quarto, SEO, Canva, Microsoft Office, English and Mandarin."
   },
   {
-    "objectID": "index.html#career-aspirations",
-    "href": "index.html#career-aspirations",
-    "title": "Welcome to My Portfolio",
-    "section": "Career Aspirations",
-    "text": "Career Aspirations\nI hope to build a career in digital marketing analytics and strategy, helping businesses make evidence-based decisions and create better online customer experiences."
-  },
-  {
-    "objectID": "index.html#explore",
-    "href": "index.html#explore",
-    "title": "Welcome to My Portfolio",
-    "section": "Explore",
-    "text": "Explore\nVisit my project dashboard, CSS/SCSS guide, and project listings."
-  },
-  {
-    "objectID": "submission.html",
-    "href": "submission.html",
-    "title": "M10 Hands-on Practice Submission",
-    "section": "",
-    "text": "This project demonstrates my ability to create and publish a personal portfolio website using Quarto, R, CSS/SCSS, and GitHub Pages.\nThe website includes four main sections: a personal homepage, an MSDM Culminating Experience Project dashboard, a CSS/SCSS styling guide, and a Quarto project listings page."
-  },
-  {
-    "objectID": "submission.html#project-overview",
-    "href": "submission.html#project-overview",
-    "title": "M10 Hands-on Practice Submission",
-    "section": "",
-    "text": "This project demonstrates my ability to create and publish a personal portfolio website using Quarto, R, CSS/SCSS, and GitHub Pages.\nThe website includes four main sections: a personal homepage, an MSDM Culminating Experience Project dashboard, a CSS/SCSS styling guide, and a Quarto project listings page."
-  },
-  {
-    "objectID": "submission.html#published-portfolio-website",
-    "href": "submission.html#published-portfolio-website",
-    "title": "M10 Hands-on Practice Submission",
-    "section": "Published Portfolio Website",
-    "text": "Published Portfolio Website\nView My Digital Marketing Portfolio"
-  },
-  {
-    "objectID": "submission.html#github-repository",
-    "href": "submission.html#github-repository",
-    "title": "M10 Hands-on Practice Submission",
-    "section": "GitHub Repository",
-    "text": "GitHub Repository\nView My GitHub Repository"
-  },
-  {
-    "objectID": "submission.html#reflection",
-    "href": "submission.html#reflection",
-    "title": "M10 Hands-on Practice Submission",
-    "section": "Reflection",
-    "text": "Reflection\nThrough this assignment, I learned how to organize a multi-page Quarto website, customize its appearance with CSS, create data visualizations, and use Quarto Listings to showcase projects.\nI also gained hands-on experience publishing a website through GitHub Pages and sharing my work with a broader audience."
+    "objectID": "resume.html#publication",
+    "href": "resume.html#publication",
+    "title": "Resume",
+    "section": "Publication",
+    "text": "Publication\nDriving the Future: How AI is Revolutionizing the Automotive Industry — listed in the supplied resume as accepted for publication in the Journal of Academy of Business and Economics (2025).\nThe downloadable PDF is the original resume provided for this project. Its education section has not been edited; the current master’s program is reflected on this webpage."
   }
 ]

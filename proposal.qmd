@@ -1,0 +1,33 @@
+---
+title: "Portfolio Website Project Proposal"
+subtitle: "Course proposal and implementation plan"
+---
+
+## Website Structure
+
+1. **Home:** Professional introduction, skills, and project links.
+2. **Digital Marketing Projects:** Multiple projects in website UX, SEO, and campaign planning.
+3. **Marketing Analytics Projects:** Multiple projects in GA4 traffic, R visualization, UX dashboard, and Revealjs.
+4. **Resume:** Education, experience, and downloadable PDF.
+
+**Note:** GA4 traffic analysis and the Revealjs presentation are project entries under Marketing Analytics, **not independent navigation tabs**.
+
+## Proposed Projects
+
+| Project | Data and source | Managerial problem | Audience | Research questions/objectives | Expected impact | Quantitative methods |
+|---|---|---|---|---|---|---|
+| Orthodontics website UX | Public website; approved analytics if granted | Consultation friction | Practice owner | Evaluate CTA, mobile navigation, trust signals | Prioritize UX improvements | Structured audit, issue counts, event metrics if available |
+| Local SEO | Public competitor sites and keyword observations | Local discoverability | Marketing manager | Identify relevant search themes | Better content prioritization | Keyword categorization, descriptive counts |
+| Campaign planning | Approved or public campaign dataset | Message/channel alignment | Marketing team | Define segments and KPIs | Clearer measurement | Segmentation, descriptive analysis |
+| Portfolio GA4 traffic | Own GA4 export, when available | Limited visibility into visitor behavior | Website owner | Compare pages, channels, engagement | Improve content and navigation | Rates, rankings, trend summaries |
+| R marketing visualization | Documented marketing dataset | Hard-to-read performance tables | Marketing analyst | Compare channel metrics | Clearer decisions | Aggregation, charts |
+| UX dashboard | Illustrative data, pending client access | Need for visual reporting | Practice manager | Communicate UX priorities | Better reporting structure | Descriptive dashboard |
+| Revealjs analytics presentation | GA4 plan and approved data when available | Need to communicate findings | Stakeholders | Explain measurement approach | Shared understanding | Visual summaries and KPI interpretation |
+
+## Status and Data Integrity
+
+The current website includes a working proposal structure and R demonstrations. **Synthetic data are used for example visualizations**; no client analytics or real portfolio GA4 traffic has been supplied. Actual results and business recommendations require verified data.
+
+## Short Presentation Script
+
+Hello everyone. My portfolio focuses on digital marketing and marketing analytics. My home page introduces my background and skills. The Digital Marketing Projects page includes website user experience, local SEO, and campaign planning. The Marketing Analytics Projects page includes GA4 website traffic analysis, R visualizations, a dashboard, and a Revealjs presentation. My main analytics goal is to understand which pages and traffic sources perform best and how to improve engagement. I plan to use GA4 data, descriptive statistics, and R charts. Right now, the sample charts are demonstrations, and I will replace them with actual data after tracking is verified. My resume is also available on the website. Thank you.

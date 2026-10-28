@@ -1,23 +1,38 @@
 project:
   type: website
   output-dir: docs
-
+  render:
+    - index.qmd
+    - digital-marketing.qmd
+    - marketing-analytics.qmd
+    - ga4-traffic.qmd
+    - data-visualization.qmd
+    - dashboard.qmd
+    - revealjs-presentation.qmd
+    - resume.qmd
+    - proposal.qmd
 website:
-  title: "Pei-Yun Chuang | Digital Marketing Portfolio"
+  title: "Candice Chuang | Marketing Portfolio"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: dashboard.qmd
-        text: Project Dashboard
-      - href: styling.qmd
-        text: CSS & SCSS
-      - href: listings.qmd
-        text: Project Listings
-
+      - href: digital-marketing.qmd
+        text: Digital Marketing Projects
+      - href: marketing-analytics.qmd
+        text: Marketing Analytics Projects
+      - href: resume.qmd
+        text: Resume
+    right:
+      - icon: github
+        href: https://github.com/candicechuang/M10-Quarto-Portfolio
+  page-footer: "Candice Chuang | Digital Marketing & Analytics"
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
     page-layout: full
+execute:
+  warning: false
+  message: false

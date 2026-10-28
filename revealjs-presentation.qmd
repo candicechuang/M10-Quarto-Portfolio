@@ -1,0 +1,68 @@
+---
+title: "Using GA4 to Improve a Portfolio Website"
+subtitle: "Interactive Marketing Analytics Project Proposal"
+author: "Candice Chuang"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+execute:
+  echo: false
+---
+
+## Why This Project Matters
+
+- A portfolio is a digital marketing touchpoint.
+- Website owners need evidence about visits and engagement.
+- GA4 can support better content and navigation decisions.
+
+## Data and Source
+
+- Intended source: GA4 events and website traffic reports from my published portfolio.
+- Dimensions: page, channel, and date.
+- Metrics: views, sessions, engaged sessions.
+- **Current status: actual GA4 data not yet provided.**
+
+## Managerial Problem and Audience
+
+- **Problem:** Which content should the website owner improve first?
+- **Audience:** Portfolio owner and digital marketing stakeholders.
+
+## Research Questions
+
+1. Which pages receive the most traffic?
+2. Which channels bring visitors?
+3. Which channels have higher engagement rates?
+
+## Methods
+
+- Descriptive statistics and aggregation in R
+- Engagement rate = engaged sessions / sessions
+- Bar charts and comparison tables
+
+## Example Analysis (Synthetic Data)
+
+```{r}
+library(ggplot2)
+d <- read.csv("data/ga4_sample.csv")
+s <- aggregate(views ~ page, d, sum)
+ggplot(s, aes(reorder(page, views), views)) + geom_col(fill="#806a83") + coord_flip() + labs(x="Page",y="Example views",title="Synthetic example — not actual GA4 data") + theme_minimal()
+```
+
+## Expected Business Impact
+
+- Identify popular and under-visited pages.
+- Improve navigation and page messaging.
+- Establish a repeatable analytics reporting workflow.
+
+## Next Steps
+
+1. Verify GA4 implementation.
+2. Collect and export actual traffic data.
+3. Re-run the analysis with real observations.
+4. Report limitations and actionable recommendations.
+
+## Thank You
+
+Questions?

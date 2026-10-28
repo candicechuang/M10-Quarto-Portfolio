@@ -1,0 +1,58 @@
+---
+title: "GA4 Portfolio Website Traffic Analysis"
+subtitle: "Marketing Analytics Project 1"
+---
+
+## Project Proposal
+
+**Project title:** Portfolio Website Traffic Analysis Using GA4
+
+**Data and source:** Google Analytics 4 reports or exported CSV from this personal portfolio website. The chart below currently uses **synthetic example data**, not GA4 measurements.
+
+**Managerial problem:** Portfolio owners need to understand where visitors arrive, which pages attract interest, and where to improve content and navigation.
+
+**Target audience:** Portfolio owner, marketing manager, and hiring/recruiting audiences interested in website performance.
+
+**Research questions:** Which pages get the most views? Which channels bring visitors? How do engaged sessions vary by channel?
+
+**Expected business impact:** Improve content priorities, navigation, and visitor engagement based on measured behavior.
+
+**Quantitative methods:** Descriptive statistics, channel comparisons, page rankings, engagement-rate calculations, and data visualization in R.
+
+## Sample Analytics Workflow
+
+::: {.callout-warning}
+**Demo data only.** The included CSV was created solely to demonstrate the R workflow. Do not present its values as actual traffic, and do not claim GA4 is installed until verified.
+:::
+
+```{r}
+#| echo: true
+library(ggplot2)
+d <- read.csv("data/ga4_sample.csv")
+d$engagement_rate <- d$engaged_sessions / d$sessions
+by_page <- aggregate(views ~ page, data=d, FUN=sum)
+print(by_page)
+ggplot(by_page, aes(x=reorder(page, views), y=views)) +
+  geom_col(fill="#806a83") + coord_flip() +
+  labs(title="Example page views (synthetic data)", x="Page", y="Example views") +
+  theme_minimal(base_size=12)
+```
+
+```{r}
+#| echo: true
+by_channel <- aggregate(cbind(sessions, engaged_sessions) ~ channel, data=d, FUN=sum)
+by_channel$engagement_rate <- round(100 * by_channel$engaged_sessions / by_channel$sessions, 1)
+print(by_channel)
+```
+
+## How to Replace Sample Data with Actual GA4 Data
+
+1. Create or verify a GA4 web data stream for the published portfolio website.
+2. Add the measurement tag to the site, and verify collection with Realtime or DebugView.
+3. Collect traffic over time and export GA4 reports containing comparable dimensions and metrics.
+4. Convert the exported data to the columns `date`, `channel`, `page`, `views`, `engaged_sessions`, and `sessions`, or adapt the R code to match your export.
+5. Replace `data/ga4_sample.csv` and remove the sample-data warning **only after** checking the real source and metric definitions.
+
+## Limitations
+
+The example dataset cannot establish visitor behavior or business impact. GA4 metrics must be interpreted with the appropriate date range, consent settings, and event definitions.

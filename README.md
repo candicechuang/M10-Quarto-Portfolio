@@ -1,12 +1,21 @@
-# M10 Quarto Portfolio
+# Candice Chuang — Quarto Portfolio Proposal
 
-1. Install Quarto and R, and install ggplot2 using `install.packages("ggplot2")`.
-2. Open this folder as a Quarto website project in RStudio, or run `quarto render` from this directory.
-3. Replace `images/profile-placeholder.svg` with your own image and update `index.qmd` to point to it.
-4. Review personal details and project descriptions before publishing.
-5. Create a public GitHub repository and upload the contents of this folder.
-6. In repository Settings > Pages, choose Deploy from a branch, branch `main`, folder `/docs`.
-7. Wait for the published website, then replace the URLs in `submission.qmd` with your actual website and repository URLs.
-8. Render `submission.qmd` to HTML and submit the HTML plus QMD if requested.
+## Open and render in RStudio
 
-Note: The dashboard uses sample scores, not actual client data. The dashboard requires the R package ggplot2. Quarto Dashboard requires a recent Quarto installation.
+1. Unzip the complete folder and open `Portfolio.Rproj` in RStudio.
+2. In the RStudio Console, run `install.packages("ggplot2")` if needed.
+3. In the Terminal (not the R Console), run `quarto render`.
+   Alternatively, use the **Render Website** button in RStudio.
+4. Preview `docs/index.html` and `docs/revealjs-presentation.html`.
+5. Upload the contents of this folder to your GitHub repository. Keep the `docs` directory.
+6. In GitHub Settings → Pages, set branch `main` and folder `/docs`.
+7. Site URL (expected if GitHub Pages is enabled): https://candicechuang.github.io/M10-Quarto-Portfolio/
+
+## Notes
+
+- The navbar has four tabs; GA4 and Revealjs are listed inside Marketing Analytics.
+- The GA4 CSV and dashboard figures are **synthetic illustrations**, not real traffic or client outcomes.
+- Do not claim GA4 tracking is active without testing it.
+- Resume PDF is the original uploaded document. The webpage includes the current master's program.
+- If RStudio shows missing package errors, install `ggplot2`.
+- To present: open `proposal.html` or the Revealjs presentation in `docs`.

@@ -1,0 +1,54 @@
+---
+title: "Digital Marketing Projects"
+subtitle: "Strategy, user experience, and marketing research"
+---
+
+## Project 1 — PhD Orthodontics Website Redesign & User Behavior
+
+**Data and source:** Publicly accessible practice website, proposed user journey observations, and published website usability research. Client analytics require permission.
+
+**Managerial problem:** A practice expanding from San Gabriel toward Chino Hills needs clear navigation, trust signals, and consultation pathways for prospective patients.
+
+**Target audience:** Practice owner, office manager, and digital marketing team.
+
+**Research questions:** How easy is it to find a consultation CTA? Are location details and doctor information clear on mobile and desktop?
+
+**Expected business impact:** Identify improvements that could reduce navigation friction and support consultation inquiries.
+
+**Methods:** Structured website audit, task-based usability assessment, descriptive counts of issues by severity, and later GA4 event analysis if access is approved.
+
+**Project status:** Research and recommendations; do not interpret example dashboard scores as actual client outcomes.
+
+[View illustrative project dashboard](dashboard.qmd)
+
+## Project 2 — Local SEO and Content Strategy (Proposed)
+
+**Data and source:** Public search results, competitor websites, Google Trends where applicable, and manually collected keyword observations.
+
+**Managerial problem:** A local service business needs to reach potential customers searching for nearby services.
+
+**Target audience:** Marketing manager and small-business owner.
+
+**Research questions:** What local search topics match customer needs? Which website pages could better address search intent?
+
+**Expected business impact:** Prioritize useful content and local search improvements.
+
+**Methods:** Keyword categorization, competitor content comparison, frequency tables, and prioritization matrices.
+
+**Project status:** Planned portfolio case study; no measured ranking improvements claimed.
+
+## Project 3 — Customer Engagement and Campaign Planning (Proposed)
+
+**Data and source:** Published campaign materials or an approved sample dataset, with sources documented before analysis.
+
+**Managerial problem:** Marketing teams need to align messages and channels with audience needs.
+
+**Target audience:** Marketing director and campaign team.
+
+**Research questions:** Which message themes fit each audience segment? What measurable KPIs should be monitored?
+
+**Expected business impact:** Clearer campaign goals and measurement plans.
+
+**Methods:** Segmentation framework, descriptive analysis, and KPI mapping.
+
+**Project status:** Proposal; actual data and findings to be added later.

@@ -1,0 +1,33 @@
+---
+title: "Marketing Data Visualization with R"
+subtitle: "Marketing Analytics Project 2"
+---
+
+## Project Proposal
+
+**Project title:** Exploring Marketing Performance Through R Visualization
+
+**Data and source:** A documented course or approved marketing dataset; the chart below uses the explicitly synthetic CSV bundled with this portfolio.
+
+**Managerial problem:** Raw performance tables are difficult for decision-makers to interpret quickly.
+
+**Target audience:** Marketing analysts and marketing managers.
+
+**Research questions:** How do metrics vary across acquisition channels? Which patterns deserve further investigation?
+
+**Expected business impact:** Make performance differences easier to communicate and help prioritize follow-up analysis.
+
+**Quantitative methods:** Grouped descriptive statistics, proportions, comparisons, and bar charts using R and ggplot2.
+
+## R Example
+
+```{r}
+library(ggplot2)
+d <- read.csv("data/ga4_sample.csv")
+s <- aggregate(sessions ~ channel, data=d, FUN=sum)
+ggplot(s, aes(x=channel, y=sessions)) + geom_col(fill="#806a83") +
+  labs(title="Example sessions by channel (synthetic data)", x="Channel", y="Sessions") +
+  theme_minimal(base_size=12)
+```
+
+**Status:** Demonstration of analytical methods; real data and results will be added when available.

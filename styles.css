@@ -1,8 +1,10 @@
-:root { --accent: #567c82; }
-body { color: #263b40; }
-h1, h2, h3 { letter-spacing: -.025em; }
-.navbar { border-bottom: 1px solid #e2e7e5; }
-.hero { padding: 2rem; background: #f4f0e9; border-left: 5px solid var(--accent); border-radius: 16px; margin-bottom: 1.5rem; }
-a { color: #326a73; }
-.card { border-radius: 14px; }
-@media (max-width: 600px) { .hero { padding: 1.2rem; } }
+:root { --accent: #806a83; }
+body {color:#302b34; background:#fffdfb;}
+.navbar {background:#fbf3f5!important; border-bottom:1px solid #eedee4;}
+a {color:#765478;}
+h1,h2,h3 {letter-spacing:-.02em;}
+.hero {background:linear-gradient(110deg,#fbf0f3,#f4f0fa); padding:2.3rem; border-radius:20px; margin:1rem 0 2rem;}
+.hero h2 {font-size:2rem;}
+.project-card {background:white; border:1px solid #eadfe8; padding:1.4rem; border-radius:16px; margin:1rem 0; box-shadow:0 4px 16px #39253c0b;}
+.small-note {color:#746d78; font-size:.9rem;}
+.profile {border-radius:18px; object-fit:cover;}

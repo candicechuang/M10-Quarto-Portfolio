@@ -1,14 +1,9 @@
 ---
-title: "M10 Hands-on Practice — Submission"
-format: html
+title: "Portfolio Submission Links"
 ---
 
-## Published portfolio website
+[Portfolio website](https://candicechuang.github.io/M10-Quarto-Portfolio/)
 
-[Open my portfolio website](https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/)
+[GitHub source repository](https://github.com/candicechuang/M10-Quarto-Portfolio)
 
-## GitHub repository
-
-[View all project source files](https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
-
-**Before submitting:** Replace both placeholder links with your real published URLs. Render this QMD file to HTML and verify both links work.
+*Verify that GitHub Pages is enabled and the published URL loads before submitting.*

@@ -1,0 +1,26 @@
+---
+title: "Marketing Analytics Projects"
+subtitle: "Measurement, quantitative analysis, and communication"
+---
+
+::: {.project-card}
+### 1. [GA4 Portfolio Website Traffic Analysis](ga4-traffic.qmd)
+Analyze traffic sources, page views, engagement, and website improvement opportunities. Includes an R workflow and a clearly labeled sample dataset until actual GA4 data are available.
+:::
+
+::: {.project-card}
+### 2. [Marketing Data Visualization with R](data-visualization.qmd)
+Use R and ggplot2 to summarize and visualize marketing performance data.
+:::
+
+::: {.project-card}
+### 3. [PhD Orthodontics UX Dashboard](dashboard.qmd)
+A demonstration dashboard showing how website usability metrics could be communicated. **Illustrative data only.**
+:::
+
+::: {.project-card}
+### 4. [Interactive Revealjs Analytics Presentation](revealjs-presentation.qmd)
+A Quarto slide presentation summarizing the proposed GA4 measurement and analysis plan.
+:::
+
+[Read the full project proposal](proposal.qmd)
